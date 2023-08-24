@@ -7,31 +7,6 @@
 
 import SwiftUI
 
-// Still needs to be solved.. Apply if statement to the text is throwing an error.
-struct under10: ViewModifier {
-    func body(content: Content) -> some View {
-        content
-            .font(.body)
-            .foregroundColor(.gray)
-    }
-}
-
-struct under100: ViewModifier {
-    func body(content: Content) -> some View {
-        content
-            .font(.body)
-            .foregroundColor(.primary)
-    }
-}
-
-struct above100: ViewModifier {
-    func body(content: Content) -> some View {
-        content
-            .font(.body)
-            .foregroundColor(.red)
-    }
-}
-
 
 struct ContentView: View {
     
